@@ -149,7 +149,7 @@ View your Cucumber Report at:
 - There are **2 scenarios** and **14 test cases**
 - When you run the test only **12 test cases** will **PASS** and `2  test cases` will `FAIL`
 
-The reason 2 scenarios will fail is because of 2 known Defects:
+The reason 2  test cases will fail is because of 2 known Defects:
 
  ### Defect 1:
  
