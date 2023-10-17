@@ -218,3 +218,7 @@ When('I request the cities for postcode {string}') do |postcode|
 end
 
 ```
+## Sample CMD execution screens
+![ruby cmd execution](https://github.com/priyankarmitra/api-test-automation-ruby/assets/54986023/43e6a463-b2ed-49bd-9b1f-578d9f66284d)
+
+
