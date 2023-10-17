@@ -1,0 +1,5 @@
+default: -p main --publish
+
+# Different Hosts
+main: VERIVOX_API_HOST=https://service.verivox.de 
+example: EXAMPLE_API_HOST=https://examples.verivox.de 
