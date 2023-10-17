@@ -138,7 +138,8 @@ The reports are **dynamic and are generated in Cucumber Cloud** when you run you
 **Example:**
 ```
 View your Cucumber Report at:                                            
-│ https://reports.cucumber.io/reports/8d57a795-911d-403c-ac01-92b5b6d04cc8 │
+
+│ https://reports.cucumber.io/reports/e006dfb1-210f-403f-867d-e58b573676c1 │
 │                                                                          │
 │ This report will self-destruct in 24h.                                   │
 │ Keep reports forever: https://reports.cucumber.io/profile                |
@@ -146,8 +147,8 @@ View your Cucumber Report at:
 
 ## Project Notes
 
-- There are **2 scenarios** and **14 test cases**
-- When you run the test only **12 test cases** will **PASS** and **2  test cases** will **FAIL**
+- There are **2 scenarios** and **16 test cases**
+- When you run the test only **14 test cases** will **PASS** and **2  test cases** will **FAIL**
 
 The reason 2  test cases will fail is because of 2 known Defects:
 
