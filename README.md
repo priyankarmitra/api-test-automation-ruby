@@ -138,6 +138,7 @@ The reports are **dynamic and are generated in Cucumber Cloud** when you run you
 **Example:**
 ```
 View your Cucumber Report at:                                            
+
 │ https://reports.cucumber.io/reports/e006dfb1-210f-403f-867d-e58b573676c1 │
 │                                                                          │
 │ This report will self-destruct in 24h.                                   │
