@@ -220,6 +220,9 @@ end
 
 ```
 ## Sample CMD execution screens
-![ruby cmd execution](https://github.com/priyankarmitra/api-test-automation-ruby/assets/54986023/43e6a463-b2ed-49bd-9b1f-578d9f66284d)
+![image](https://github.com/priyankarmitra/api-test-automation-ruby/assets/54986023/9afd1916-7560-4179-b315-321e2a7f6b98)
+
+## Sample HTML report
+![image](https://github.com/priyankarmitra/api-test-automation-ruby/assets/54986023/3047bd51-9517-4de7-bcc4-fc7bdb867f1e)
 
 
