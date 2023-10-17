@@ -138,7 +138,7 @@ The reports are **dynamic and are generated in Cucumber Cloud** when you run you
 **Example:**
 ```
 View your Cucumber Report at:                                            
-│ https://reports.cucumber.io/reports/ba1a3fb5-9c46-441c-9409-3c7735768fc5 │
+│ https://reports.cucumber.io/reports/e006dfb1-210f-403f-867d-e58b573676c1 │
 │                                                                          │
 │ This report will self-destruct in 24h.                                   │
 │ Keep reports forever: https://reports.cucumber.io/profile                |
@@ -146,10 +146,10 @@ View your Cucumber Report at:
 
 ## Project Notes
 
-- There are **14 scenarios**
-- When you run the test only **12 scenarios** will **PASS** and `2 scenarios` will `FAIL`
+- There are **2 scenarios** and **16 test cases**
+- When you run the test only **14 test cases** will **PASS** and **2  test cases** will **FAIL**
 
-The reason 2 scenarios will fail is because of 2 known Defects:
+The reason 2  test cases will fail is because of 2 known Defects:
 
  ### Defect 1:
  
@@ -218,3 +218,7 @@ When('I request the cities for postcode {string}') do |postcode|
 end
 
 ```
+## Sample CMD execution screens
+![ruby cmd execution](https://github.com/priyankarmitra/api-test-automation-ruby/assets/54986023/43e6a463-b2ed-49bd-9b1f-578d9f66284d)
+
+
