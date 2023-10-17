@@ -180,7 +180,6 @@ The reason 2  test cases will fail is because of 2 known Defects:
  **Steps To Reproduce**
 
  1. Make a request to cities '/geo/latestv2/cities' API for postcode 99974
- 2. Make another request to cities '/geo/latestv2/cities' API for postcode 60306
  
  *Expected:* The response should contain 2 cities `"Mühlhausen/Thüringen" and "Unstruttal"`
  
