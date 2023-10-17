@@ -180,10 +180,12 @@ The reason 2  test cases will fail is because of 2 known Defects:
  **Steps To Reproduce**
 
  1. Make a request to cities '/geo/latestv2/cities' API for postcode 99974
+ 2. Make another request to cities '/geo/latestv2/cities' API for postcode 60306
  
- *Expected:* The response should contain 2 cities `"Mühlhausen/Thüringen" and "Unstruttal"`
+ *Expected:* The first response should contain 2 cities `"Mühlhausen/Thüringen" and "Unstruttal"`
+The second response should contain 2 cities `"Bad Gottleuba-Berggießhübel" and "Bahretal"`
  
- *Actual:* In the response one 1 city name appears `Mühlhausen`
+ *Actual:* In the first response 1 city name appears `Mühlhausen` and in the second response also 1 city name appears i.e. `"Bad Gottleuba-Berggießhübel"`
 
  ## Sample Test Scenario
 
