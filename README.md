@@ -155,7 +155,8 @@ The reason 2  test cases will fail is because of 2 known Defects:
  ### Defect 1:
  
  Some city names with spaces and '/' do not appear in the response correctly, only the first word is shown, causing truncation.
- Ex: *77716, Haslach im Kinzigtal* and *99974 Mühlhausen/Thüringen*
+
+** Ex:** *77716, Haslach im Kinzigtal* and *99974 Mühlhausen/Thüringen*
 
  **Steps To Reproduce**
 
@@ -163,13 +164,17 @@ The reason 2  test cases will fail is because of 2 known Defects:
  2. Make another request to cities '/geo/latestv2/cities' API for postcode 60306
  
  *Expected:* The first response should contain the city name as `Frankfurt an der Oder` and the second response should contain the city name `Frankfurt` or `Frankfurt am Main`
+ 
  *Actual:* In both the responses city name appears as `Frankfurt`
 
  ### Defect 2:
  
  Some postcodes return only one city, but the expectation is to retrieve multiple cities.
- Ex: *Sollstedter Weg 1B, 99974 Unstruttal* and *Güldene Ecke 6, 99974 Mühlhausen/Thüringen*
- *Gersdorf 97, 01816 Bahretal* and *Am Tannenbusch 5, 01816 Bad Gottleuba-Berggießhübel*
+ 
+** Ex: **
+*Sollstedter Weg 1B, 99974 Unstruttal* and *Güldene Ecke 6, 99974 Mühlhausen/Thüringen*
+
+*Gersdorf 97, 01816 Bahretal* and *Am Tannenbusch 5, 01816 Bad Gottleuba-Berggießhübel*
 
  
  **Steps To Reproduce**
@@ -178,6 +183,7 @@ The reason 2  test cases will fail is because of 2 known Defects:
  2. Make another request to cities '/geo/latestv2/cities' API for postcode 60306
  
  *Expected:* The response should contain 2 cities `"Mühlhausen/Thüringen" and "Unstruttal"`
+ 
  *Actual:* In the response one 1 city name appears `Mühlhausen`
 
  ## Sample Test Scenario
